@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://img.icons8.com/?size=100&id=MFaX6nJlDgiU&format=png&color=000000",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 1,
+    "description": "Organize tasks, set deadlines, build habits, and manage personal or team projects with a simple task manager.",
+    "size": 45,
+    "reviews": 850000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 585000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=nvtEH6DpqruC&format=png&color=000000",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 2,
+    "description": "Create notes, manage projects, build databases, and organize your personal and professional workspace.",
+    "size": 65,
+    "reviews": 350000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 225000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=WKF3bm1munsk&format=png&color=000000",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Schedule meetings, manage events, set reminders, and keep your daily activities organized.",
+    "size": 35,
+    "reviews": 4000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=xF9ZbyGPFTC2&format=png&color=000000",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft Corporation",
+    "id": 4,
+    "description": "Create daily to-do lists, plan tasks, set reminders, and sync your work across devices.",
+    "size": 30,
+    "reviews": 350000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=taZbVB7wKSaU&format=png&color=000000",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 5,
+    "description": "Capture notes, save web content, scan documents, and keep important information searchable in one place.",
+    "size": 80,
+    "reviews": 1800000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=21049&format=png&color=000000",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 6,
+    "description": "Visualize workflows with boards, lists, and cards to track tasks and collaborate with your team.",
+    "size": 55,
+    "reviews": 120000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 78000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=13653&format=png&color=000000",
+    "title": "Microsoft OneNote",
+    "companyName": "Microsoft Corporation",
+    "id": 7,
+    "description": "Write notes, organize class materials, collect ideas, and keep notebooks synchronized across devices.",
+    "size": 60,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 860000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=70218&format=png&color=000000",
+    "title": "TickTick",
+    "companyName": "Appest Inc.",
+    "id": 8,
+    "description": "Combine task lists, calendar planning, habit tracking, and a Pomodoro timer in one productivity app.",
+    "size": 40,
+    "reviews": 150000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 95000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=by7K6EO4PeHT&format=png&color=000000",
+    "title": "Zapier",
+    "companyName": "Zapier Inc.",
+    "id": 9,
+    "description": "Automate repetitive workflows by connecting supported apps and triggering actions without manual work.",
+    "size": 35,
+    "reviews": 15000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=19978&format=png&color=000000",
+    "title": "Slack",
+    "companyName": "Salesforce, Inc.",
+    "id": 10,
+    "description": "Communicate through channels, share files, and coordinate projects with your coworkers and teams.",
+    "size": 75,
+    "reviews": 150000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 95000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=ookJ5efQKjnm&format=png&color=000000",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "id": 11,
+    "description": "Plan projects, assign responsibilities, track deadlines, and monitor progress with your team.",
+    "size": 50,
+    "reviews": 55000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 32500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=13630&format=png&color=000000",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Store files securely, share documents, collaborate on projects, and access your files from different devices.",
+    "size": 40,
+    "reviews": 10000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 6800000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=17593&format=png&color=000000",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "id": 13,
+    "description": "Stay focused by growing virtual trees while you work and reducing distractions from your phone.",
+    "size": 120,
+    "reviews": 150000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 95000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=13462&format=png&color=000000",
+    "title": "Focus To-Do",
+    "companyName": "Pomodoro Timer & To Do List",
+    "id": 14,
+    "description": "Combine the Pomodoro technique with task management to improve concentration and track working sessions.",
+    "size": 25,
+    "reviews": 200000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 130000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=100&id=rFdotO9u820V&format=png&color=000000",
+    "title": "Grammarly",
+    "companyName": "Grammarly, Inc.",
+    "id": 15,
+    "description": "Improve writing with grammar checks, spelling suggestions, tone adjustments, and AI-powered writing assistance.",
+    "size": 90,
+    "reviews": 200000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 117000 }
+    ]
+  }
+]
