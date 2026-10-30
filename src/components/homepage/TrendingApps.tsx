@@ -4,7 +4,6 @@ import { getAppsData } from "@/lib/apps";
 
 const TrendingApps = async () => {
   const appsdata: TAppProps[] = await getAppsData();
-  // console.log("from app data", appsdata);
 
   return (
     <main className="max-w-7xl mx-auto mt-20">

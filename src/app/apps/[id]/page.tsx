@@ -11,6 +11,15 @@ interface TParamsProps {
   }>;
 }
 
+export const generateStaticParams = async()=> {
+  const data: TAppProps[] = await getAppsData();
+
+  return data.map((singleData)=> ({
+    id: singleData.id.toString()
+  }))
+}
+
+
 const AppDetailsPage = async ({ params }: TParamsProps) => {
   const { id } = await params;
   // console.log(id);

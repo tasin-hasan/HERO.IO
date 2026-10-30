@@ -1,7 +1,9 @@
 import { TAppProps } from "@/types/AppdataType";
 
 export const getAppsData = async () => {
-  const response = await fetch("http://localhost:3000//data.json");
+  const response = await fetch("http://localhost:3000//data.json", {
+    cache: "force-cache"
+  });
   const data:TAppProps[] = await response.json();
   return data;
 };
