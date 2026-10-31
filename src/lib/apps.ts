@@ -2,10 +2,10 @@ import { TAppProps } from "@/types/AppdataType";
 
 
 export const getAppsData = async()=> {
-  const baseUrl = process.env.VERCEL ? `${process.env.VERCEL_PROJECT_PRODUCTION_URL}`: process.env.NEXT_BASE_URL;
+  const baseUrl = process.env.VERCEL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`: process.env.NEXT_BASE_URL;
 
   const response = await fetch(`${baseUrl}/data.json`, {
-    cache: "force-cache"
+    cache: "no-store"
   });
 
   if(!response.ok) {
