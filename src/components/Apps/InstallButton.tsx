@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 const InstallButton = ({ appData }: { appData: TAppProps }) => {
   const { installedApps, setInstalledApps } = useContext(AppContext);
-  console.log(installedApps);
+  // console.log(installedApps);
   const isAppAvailable = installedApps.some((app) => app.id === appData.id);
 
   const handleInstall = () => {

@@ -1,11 +1,14 @@
 import { TAppProps } from "@/types/AppdataType";
+import "server-only";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 
-export const getAppsData = async () => {
-  const response = await fetch("http://localhost:3000//data.json", {
-    cache: "force-cache"
-  });
-  const data:TAppProps[] = await response.json();
-  return data;
+export const getAppsData = async (): Promise<TAppProps[]> => {
+  const filePath = path.join(process.cwd(), "public", "data.json");
+
+  const fileData = await readFile(filePath, "utf-8");
+
+  return JSON.parse(fileData) as TAppProps[];
 };
 
 export const formatDownloads = (downloads: number) => {
