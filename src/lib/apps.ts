@@ -1,15 +1,23 @@
 import { TAppProps } from "@/types/AppdataType";
-import "server-only";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 
-export const getAppsData = async (): Promise<TAppProps[]> => {
-  const filePath = path.join(process.cwd(), "public", "data.json");
 
-  const fileData = await readFile(filePath, "utf-8");
+export const getAppsData = async()=> {
+  const baseUrl = process.env.VERCEL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`: process.env.NEXT_PUBLIC_BASE_URL;
 
-  return JSON.parse(fileData) as TAppProps[];
-};
+  const response = await fetch(`${baseUrl}/data.json`, {
+    cache: "force-cache"
+  });
+
+  if(!response.ok) {
+    throw new Error("Failed to fetch apps data");
+  }
+
+  const data: TAppProps[] = await response.json();
+
+  return data;
+
+
+}
 
 export const formatDownloads = (downloads: number) => {
     if (downloads >= 1_000_000_000) {
